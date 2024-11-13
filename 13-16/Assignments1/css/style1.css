@@ -1,0 +1,15 @@
+
+/* تلوين كلمة Title داخل العنصر .child باللون الأحمر */
+.parent .child .title{
+    color: red;
+}
+
+/* تلوين كلمة "Child Title" داخل العنصر span باللون الأزرق */
+.parent span{
+    color: blue;
+}
+
+/* تلوين جملة "Paragraph Content" والـ Section Title باللون الأخضر */
+.parent p, div.title{
+    color: green;
+}
