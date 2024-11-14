@@ -1,0 +1,37 @@
+* {
+    font-family: sans-serif;
+    font-weight: bold;
+}
+div.parent{
+    background-color: #eeeeee;
+    width: 800px;
+    margin: 20px auto;
+    
+}
+
+.parent div{
+    background-color: #dddddd;
+    text-align: center; 
+    padding: 15px 0;
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.one{
+    width: calc(100% - 30px);
+}
+  
+.two{
+    width: calc((100% - 60px) / 3);
+}
+.three{
+    width: calc((100% - 45px) / 2);
+}
+.four{
+    width: calc((100% - 75px)/ 4);
+    margin-bottom: 15px;
+}
+.clear{
+    clear: both;
+}
