@@ -2,13 +2,25 @@
     font-family: sans-serif;
 }
 
-div{
-    width: 400px;
-    background-color: #eeeeee;
-    margin: auto;
-    padding: 20px;
-    /* To control long text */
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
+html {
+    font-size: 20px;
+}
+
+.one,
+.two,
+.three {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.one {
+     font-size: 2.5rem;  /* 50px */
+}
+
+.two {
+    font-size: 2rem; /* 40px */
+}
+
+.three {
+    font-size: 1.5rem;
 }
