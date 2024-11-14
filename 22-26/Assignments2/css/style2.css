@@ -1,0 +1,20 @@
+* {
+    font-family: sans-serif;
+}
+
+.one, .two, .three{
+    font-size: 5em;
+    text-align: center;
+}
+/*Make all letters uppercase*/
+p.one{
+    text-transform: uppercase;
+}
+/*Capitalize the first letter of each word*/
+p.two{
+    text-transform: capitalize;
+}
+/*Make all letters lowercase*/
+p.three{
+    text-transform: lowercase;
+}

@@ -1,0 +1,11 @@
+* {
+    font-family: sans-serif;
+}
+
+p.title {
+    margin: auto;
+    font-size: 100px;
+    padding: 25px;
+    text-align: center;
+    text-shadow: 3px 3px #f44336, 6px 6px #2196f3, 9px 9px #9c27b0;
+}
