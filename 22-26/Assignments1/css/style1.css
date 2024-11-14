@@ -1,0 +1,15 @@
+* {
+    font-family: sans-serif;
+}
+div{
+    border: 5px solid #009688;
+    padding: 25px;
+}
+div p{
+    background-color: #eeeeee;
+    padding: inherit; /**/
+    border: inherit;
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+}

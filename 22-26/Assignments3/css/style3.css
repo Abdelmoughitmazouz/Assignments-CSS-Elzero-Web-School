@@ -1,0 +1,14 @@
+* {
+    font-family: sans-serif;
+}
+
+div{
+    width: 400px;
+    background-color: #eeeeee;
+    margin: auto;
+    padding: 20px;
+    /* To control long text */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
