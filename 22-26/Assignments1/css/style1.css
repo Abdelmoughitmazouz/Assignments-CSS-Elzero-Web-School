@@ -1,11 +1,15 @@
 * {
     font-family: sans-serif;
 }
-
-p.title {
-    margin: auto;
-    font-size: 100px;
+div{
+    border: 5px solid #009688;
     padding: 25px;
+}
+div p{
+    background-color: #eeeeee;
+    padding: inherit; /**/
+    border: inherit;
+    margin: auto;
     text-align: center;
-    text-shadow: 3px 3px #f44336, 6px 6px #2196f3, 9px 9px #9c27b0;
+    font-size: 2em;
 }
