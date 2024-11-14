@@ -3,18 +3,21 @@
 }
 
 .one, .two, .three{
-    font-size: 5em;
+    font-size: 70px;
+    text-transform: capitalize;
     text-align: center;
 }
-/*Make all letters uppercase*/
-p.one{
-    text-transform: uppercase;
+
+.one{
+    font-family: "Open Sans", sans-serif;
+    font-style: italic;
 }
-/*Capitalize the first letter of each word*/
-p.two{
-    text-transform: capitalize;
+
+.two{    
+    font-family: "Cairo", sans-serif;
+    font-weight: 700;
 }
-/*Make all letters lowercase*/
-p.three{
-    text-transform: lowercase;
+
+.three{
+    font-family: "Jomhuria", serif;
 }
