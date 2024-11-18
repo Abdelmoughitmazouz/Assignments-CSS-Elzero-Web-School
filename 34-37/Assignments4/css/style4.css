@@ -1,0 +1,23 @@
+* {
+    font-family: sans-serif;
+}
+
+p{
+    background-color: #efefef;
+    margin: 10px auto;
+    width: 400px;
+    padding: 20px;
+    border-right: 5px solid #f44336;
+    counter-increment: number;
+    position: relative;
+}
+p::before{
+    content: counter(number);
+    background-color: #f44336;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    top:0;
+    left: -50px;
+}

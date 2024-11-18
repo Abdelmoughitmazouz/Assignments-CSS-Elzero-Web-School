@@ -1,0 +1,18 @@
+* {
+    font-family: sans-serif;
+}
+
+div{
+    background-color: #d4d4d4;
+    margin: 10px auto;
+    text-align: center;
+    padding: 20px;
+    width: fit-content;
+}
+
+div::first-letter{
+    padding: 15px 10px;
+    background-color: red;
+    margin-left: -35px;
+    margin-right: 10px;
+}
