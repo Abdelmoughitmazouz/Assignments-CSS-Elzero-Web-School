@@ -1,0 +1,12 @@
+* {
+    font-family: sans-serif;
+}
+
+div{
+    background-color: #efefef;
+    width: 100px;
+    height: 100px;
+    margin: 30px auto;
+    border-radius:10px 50px / 15px 50px;
+    box-shadow: inset 0px 0px 15px 0px black;
+}
