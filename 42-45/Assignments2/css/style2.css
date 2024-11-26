@@ -1,0 +1,26 @@
+* {
+    font-family: sans-serif;
+}
+
+div {
+    background-color: #eeeeee !important;
+    font-size: 20px !important;
+    width: 400px !important;
+    margin: 10px auto;
+    border: none !important;
+    text-align: center !important;
+    position: relative;
+}
+
+div::first-line {
+    visibility: hidden;
+}
+
+div::after {
+    content: 'Elzero';
+    position: absolute;
+    color: black;
+    font-weight: bold;
+    left: 0;
+    right: 0;
+}
