@@ -1,4 +1,7 @@
 # Assignments (42 - 45) [Transitions, Variables]
+
+Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-42-to-45/).
+
 ## Assignments 01
 - Make sure you use the same colors as in the figure
 - You must write `prefixes` for properties that need a `prefix`
