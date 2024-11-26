@@ -1,5 +1,5 @@
 # Assignments (42 - 45) [Transitions, Variables]
-## Assignments 01
+## Assignments 01 `#cc0000`
 - Make sure you use the same colors as in the figure
 - You must write `prefixes` for properties that need a `prefix`
 - Make sure the parent element goes up in half a second when `hovering`
