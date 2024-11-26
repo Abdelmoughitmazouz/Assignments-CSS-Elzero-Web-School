@@ -15,6 +15,8 @@
 The width of the element is `400px` and it is centered `horizontally`
 The font size is `20px`
 
+> Use what you've learned before and look for how to hide text inside an element. There are many ways.
+
 ![Assignments 01](/42-45/Image/css-assignments-lessons-42-45-2.png)
 
 ## Assignments 03
