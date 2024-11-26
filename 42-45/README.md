@@ -17,6 +17,17 @@ The font size is `20px`
 
 > Use what you've learned before and look for how to hide text inside an element. There are many ways.
 
-![Assignments 01](/42-45/Image/css-assignments-lessons-42-45-2.png)
+![Assignments 02](/42-45/Image/css-assignments-lessons-42-45-2.png)
 
 ## Assignments 03
+- Use the previous `HTML` structure without modifying it to create the following shape
+- In `CSS`, never modify the variables part and modify only the `div` Selector
+- Make sure you use the variables because we will remove them later
+
+![Assignments 03](/42-45/Image/css-assignments-lessons-42-45-3-part1.png)
+
+- Once you are completely finished, we will make some adjustments to make sure that you have `Fall Backed` the variable values.
+- Cancel the element `:root` with the variables inside it.
+- Make sure that the shape will be as in the following image.
+
+![Assignments 03](/42-45/Image/css-assignments-lessons-42-45-3-part2.png)
