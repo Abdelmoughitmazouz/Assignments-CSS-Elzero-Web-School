@@ -1,6 +1,6 @@
 # Assignments (46 - 53) [Flex Box]
 
-Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-46-to-53/).:point_left:
+Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-46-to-53/) :point_left:
 
 ## Assignments 01
 - Use the previous structure without modifying it to create the desired shape
