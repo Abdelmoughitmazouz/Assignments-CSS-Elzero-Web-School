@@ -1,4 +1,4 @@
-# Assignments (46 - 53) [Transitions, Variables]
+# Assignments (46 - 53) [Flex Box]
 
 Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-46-to-53/).:point_left:
 
