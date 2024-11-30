@@ -1,0 +1,59 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --mainBackground: #eeeeee;
+    --Color1: #ff9800;
+    --Color2: #8bc34a;
+    --Color3: #795548;
+    --Color4: #673ab7;
+    --fontColor: white;
+    --width: 600px;
+    --height: 300px;
+}
+
+.parent {
+    display: flex;
+    background-color: var(--mainBackground);
+    width: var(--width, 600px);
+    height: var(--height, 300px);
+    color:var(--fontColor, white);
+    margin: 10px auto;
+    padding: 10px;
+    justify-content: space-between;
+    div {
+        padding: 20px;
+        width: calc(80% / 4);
+        height: 50%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .one{
+        background-color: var(--Color1);
+        order:2;
+    }
+    .two{
+        background-color: var(--Color2);
+        order: 3;
+    }
+    .three{
+        background-color: var(--Color3);
+        order: 4;
+    }
+    .four{
+        background-color: var(--Color4);
+        order: 1;
+    }
+
+    .two,.four{
+        align-self: flex-end;
+    }
+
+    .one,.three{
+        align-self: start;
+    }
+}

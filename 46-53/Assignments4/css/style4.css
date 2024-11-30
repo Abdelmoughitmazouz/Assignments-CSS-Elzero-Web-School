@@ -1,0 +1,41 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --mainBackground: #eeeeee;
+    --mainColor: #009688;
+    --fontColor: white;
+    --width: 600px;
+    --height: 300px;
+}
+
+.parent {
+    background-color: var(--mainBackground);
+    width: var(--width);
+    height: var(--height);
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+
+
+    div {
+        background-color: var(--mainColor);
+        color: var(--mainBackground);
+        height: calc(90% / 3);
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 5%;
+    }
+
+    .two {
+        align-self: flex-start;
+        width: 50%;
+    }
+}

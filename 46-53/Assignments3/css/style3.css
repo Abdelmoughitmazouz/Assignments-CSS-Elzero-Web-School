@@ -1,0 +1,54 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --backgound: #eeeeee;
+    --color: #607d8b;
+    --fontcolor: white;
+    --width: 600px;
+    --height: 300px;
+}
+
+.parent {
+    width: var(--width);
+    height: var(--height);
+    background-color: var(--backgound);
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    flex-flow: row-reverse wrap-reverse;
+    justify-content: space-between;
+
+    div {
+        background-color: var(--color);
+        color: var(--fontcolor);
+        text-align: center;
+        width: calc(95% / 3);
+        align-content: center;
+        padding: 10px;
+    }
+
+    .one {
+        align-self: end;
+    }
+
+    .three {
+        order: 5;
+        align-self: start;
+    }
+
+    .four {
+        order: 4;
+    }
+
+    .five {
+        order: 3;
+
+    }
+
+    .six {
+        order: 6;
+    }
+}

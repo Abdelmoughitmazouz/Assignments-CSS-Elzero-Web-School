@@ -1,0 +1,25 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --color1: #ff5722;
+    --color2: #03a9f4;
+    --background-color:#eeeeee;
+}
+
+div{
+    background-color: var(--background-color);
+    width: 100px;
+    height: 100px;
+    margin: 10px auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: var(--color1);
+    box-shadow: 5px 0px var(--color1),-5px 0px var(--color2);
+}
