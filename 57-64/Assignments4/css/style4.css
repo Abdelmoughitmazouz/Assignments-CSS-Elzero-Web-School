@@ -1,0 +1,50 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    display: grid;
+    margin: 10px auto;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(6,auto);
+    gap: 20px;
+
+    div{
+        background-color: #2196f3;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+
+        &.one{
+            grid-area: 6 /span 3;
+        }
+        &.two{
+            grid-area: 2 / 1 / 2 / 3
+        }
+        &.three{
+            grid-area: 2;
+        }
+        &.four{
+            grid-area: 3;
+        }
+        &.five{
+            grid-area: 3 / 2 / span 3 / span 2
+        }
+        &.six{
+            grid-area: 4;
+        }
+        &.seven{
+            grid-area:5 ;
+        }
+        &.eight{
+            grid-area: 1 / 1 / 1 / 4;
+        }
+    }
+}

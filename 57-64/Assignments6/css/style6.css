@@ -1,0 +1,73 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    background-color: #eeeeee;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, auto);
+    gap: 10px;
+    width: 90%;
+    margin: auto;
+    padding: 30px;
+
+    div {
+        background-color: #ffffff;
+        border-bottom: 5px solid #ff3d00;
+        overflow: hidden;
+        padding: 15px;
+        font-size: 20px;
+        position: relative;
+        &::before{
+            content: '"';
+            position: absolute;
+            bottom: -40px;
+            right: 10px;
+            font-size: 80px;
+            color: #4c4c4c;
+            transform: rotate(13deg);
+        }
+        h2, h3, p{
+            margin: 10px;
+            line-height: 1.6;
+        }
+        
+        h3{
+            opacity: 0.5;
+        } 
+        .para-bold{
+            font-weight: bold;
+        } 
+        /**/
+        &.card3,&.card5,&.card8{
+            background-color: black;
+            color: white;
+        }
+        /**/
+        &.card1 {
+            grid-area: 1 / span 2;
+        }
+
+        &.card3 {
+            grid-area: span 3;
+        }
+
+        &.card4 {
+            grid-area: 2 / 1 / span 2;
+        }
+
+        &.card5 {
+            grid-area: 2 / 2 / 2 / span 2;
+        }
+
+        &.card6 {
+            grid-area: 3 / 2 / 3 / span 2;
+        }
+    }
+}
