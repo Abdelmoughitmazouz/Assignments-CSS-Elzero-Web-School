@@ -1,0 +1,43 @@
+:root {
+    --backgroundColor: #eeeeee;
+    --color1: #03a9f4;
+    --color2: #e91e63;
+    --mainWidth: 300px;
+    --mainHeight: 200px;
+}
+
+div {
+    background-color: var(--backgroundColor);
+    width: var(--mainWidth);
+    height: var(--mainHeight);
+    margin: 40px auto;
+    border: 2px solid#cccccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color1);
+    font-size: 3.6em;
+    font-weight: bold;
+    position: relative;
+
+    &::after,
+    &::before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    &::after {
+        background-color: var(--color1);
+        transform: rotate(-5deg);
+    }
+
+    &::before {
+        background-color: var(--color2);
+        transform: rotate(5deg);
+    }
+}
