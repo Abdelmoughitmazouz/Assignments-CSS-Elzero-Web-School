@@ -30,5 +30,3 @@ Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-65-to
 - Use the same shape from the previous assignment
 - When doing a `hover` on the shape, do what is required in the picture
 - The duration of the element’s rotation around the shape is half a second
-
-![Assignments 03](/65-67/Image/css-assignments-lessons-65-67-3.mp4)
