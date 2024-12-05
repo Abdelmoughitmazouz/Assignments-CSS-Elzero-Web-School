@@ -1,0 +1,49 @@
+* {
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+:root{
+    --color1:#000000;
+    --color2:#607d8b;
+    --fontColor:white;
+    --mainWidth :200px;
+    --mainHeight :200px;
+}
+
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+div{
+    width: var(--mainWidth);
+    height: var(--mainHeight);
+    background-color: var(--color2);
+    border-bottom: 5px solid var(--color1);
+    position: relative;
+    
+    &::after{
+        content: "";
+        top: -69px;
+        left: 29px;
+        width: 69%;
+        height: 69%;
+        position: absolute;
+        background-color: var(--color1);
+        border-bottom: 5px solid var(--fontColor);
+        border-left: 5px solid var(--fontColor);
+        transform: rotate(-44.5deg);
+    }
+
+    &::before{
+        content: "elzero";
+        position: absolute;
+        bottom: 0;
+        left: 5px;
+        color: var(--fontColor);
+        text-transform: capitalize;
+        padding: 10px;
+    }
+}
