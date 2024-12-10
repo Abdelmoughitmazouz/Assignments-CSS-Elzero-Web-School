@@ -1,0 +1,8 @@
+*{
+    font-weight: bold;
+    text-align: center;
+}
+
+.parent > .child:nth-child(2){
+    color: red;
+}

@@ -1,0 +1,8 @@
+* {
+    text-align: center;
+    font-weight: bold;
+}
+
+ body > [title]:not(.no-need){
+    color: red;
+}

@@ -1,0 +1,9 @@
+* {
+    font-weight: bold;
+    text-align: center;
+}
+
+div:not([class]):not([id]):not(:first-child):not(:last-child), 
+p:not([class]):not([id]) {
+    color: red;
+}
