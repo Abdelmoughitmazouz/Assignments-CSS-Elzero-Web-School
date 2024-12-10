@@ -3,7 +3,6 @@
     text-align: center;
 }
 
-div:not([class]):not([id]):not(:first-child):not(:last-child), 
-p:not([class]):not([id]) {
+div :not(:first-child, h3, :last-child) {
     color: red;
 }
