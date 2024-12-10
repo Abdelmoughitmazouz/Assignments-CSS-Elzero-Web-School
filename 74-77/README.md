@@ -32,7 +32,7 @@ Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-74-to
 
 ## Assignments 04
 - Make the same shape with the same colors
-- Make the same animation and do not set a specific time. The most important thing is that the second animation starts after the first one ends
-- Use Flex Box or Grid to draw the letters
+- Make the same `animation` and do not set a specific time. The most important thing is that the second `animation` starts after the first one ends
+- Use `Flex Box` or `Grid` to draw the letters
 
 ![Assignments 04](/74-77/Image/frontend-el-letters-animation.gif)
