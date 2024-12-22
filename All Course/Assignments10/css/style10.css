@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+    font-weight: bold;
+}
+
+.container{
+    background-color: #eeee;
+    width: 600px;
+    height: 600px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    border: 5px solid black;
+    margin: 10px auto;
+}
+
+.black{
+    background-color: black;
+}
+.white{
+    background-color: white;
+}

@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eeeeee;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.input-box {
+    margin: 10px auto;
+    border: 2px solid #dddddd;
+    border-radius: 6px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    caret-color: #009688;
+}
+
+.input-box .prefix {
+    background-color: #009688;
+    padding: 12px;
+    color: whitesmoke;
+    border-radius: 3px 0 0 3px;
+}
+
+.input-box input {
+    all: unset;
+    font-size: 1.2em;
+    padding: 10px;
+    flex: 1;
+}
