@@ -1,6 +1,8 @@
 * {
     text-align: center;
     font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 
  body > [title]:not(.no-need){

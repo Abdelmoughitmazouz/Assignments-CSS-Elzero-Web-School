@@ -1,6 +1,8 @@
 * {
     text-align: center;
     font-weight: bold;
+    margin: 0;
+    padding: 0;
 }
 
 div:first-child div:nth-child(5){
