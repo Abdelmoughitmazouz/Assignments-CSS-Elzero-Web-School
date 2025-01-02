@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -6,24 +6,53 @@
     text-transform: capitalize;
 }
 
-.parent{
+.parent {
     display: flex;
     justify-content: space-evenly;
-    /* flex-wrap: wrap; */
-}
-.parent div{
-    background-color: #eeeeee;
-    width: 200px;
-    padding: 10px 20px;
-    margin: 10px;
-    text-align: center;
-    border: 1px solid #e5e5e5;
+    flex-wrap: wrap;
 }
 
-.parent div p{
+.parent div {
+    background-color: #eeeeee;
+    width: 100%;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid #e5e5e5;
+    margin-top: 5px;
+}
+
+.parent div p {
     padding-top: 8px;
     opacity: 0.8;
 }
-.parent div h3{
+
+.parent div h3 {
     color: #009688;
+}
+
+/* mobile devices */
+@media (max-width: 767px) {
+    .parent div {
+        margin: 5px;
+    }
+    .parent div h3 {
+        color: #000000;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 768px) and (max-width: 992px) {
+    .parent div {
+        width: calc(50% - 10px);
+    }
+    .parent div h3 {
+        color: #ff0000;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 993px) {
+    .parent div {
+        width: calc(25% - 10px);
+    }
 }
