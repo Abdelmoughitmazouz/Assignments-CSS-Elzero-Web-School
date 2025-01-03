@@ -1,31 +1,38 @@
-# Assignments (78 - 82) [Selectors]
+# Assignments (83 - 85) [Media Queries]
 
-Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-78-to-82/) :point_left:
+Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-83-to-85/) :point_left:
 
-## Assignments 01 - 07
-- Use the previous structure without modifying it
-- The word `Elzero` should be colored red
-- The `Selector/s` should be selected in one line only
+## Assignments 01
+- Adjust the font size to `40px` only in `Print` mode.
 
-![Assignments 01](/78-82/Image/css-assignments-lessons-78-82-1.png)
+## Assignments 02
 
-![Assignments 02](/78-82/Image/css-assignments-lessons-78-82-2.png)
+- Make the same shape and same colors
+- Distribute the elements in the same number in each screen
+- Make sure that you show the colors in each screen as in the pictures
+- You must use only `Media Queries` and do not add any framework
 
-![Assignments 03](/78-82/Image/css-assignments-lessons-78-82-3.png)
+### On the big screens
+![Assignments 02](/83-85/Image/css-assignments-lessons-83-85-2-1.png)
 
-![Assignments 04](/78-82/Image/css-assignments-lessons-78-82-4.png)
+### On medium screens
+![Assignments 02](/83-85/Image/css-assignments-lessons-83-85-2-2.png)
 
-![Assignments 05](/78-82/Image/css-assignments-lessons-78-82-5.png)
+### On small screens and mobile phones
+![Assignments 02](/83-85/Image/css-assignments-lessons-83-85-2-3.png)
 
-![Assignments 06](/78-82/Image/css-assignments-lessons-78-82-6.png)
+## Assignments 03
 
-![Assignments 07](/78-82/Image/css-assignments-lessons-78-82-7.png)
+- Make the same shape and same colors
+- Distribute the elements in the same number in each screen
+- Make sure that you show the colors in each screen as in the pictures
+- You must use only `Media Queries` and do not add any framework
 
-## Assignments 08
+### On the big screens
+![Assignments 03](/83-85/Image/css-assignments-lessons-83-85-3-1.png)
 
-- Use the previous structure without modifying it
-- The required color is `Elzero` in red
-- The `Selector/s` must be selected in one line only
-- The required use is `:not Selector only`
+### On medium screens
+![Assignments 03](/83-85/Image/css-assignments-lessons-83-85-3-2.png)
 
-![Assignments 08](/78-82/Image/css-assignments-lessons-78-82-8.png)
+### On small screens and mobile phones
+![Assignments 03](/83-85/Image/css-assignments-lessons-83-85-3-3.png)
