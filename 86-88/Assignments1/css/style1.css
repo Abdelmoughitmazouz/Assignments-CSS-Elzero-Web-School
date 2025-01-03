@@ -1,0 +1,10 @@
+*{
+    font-weight: bold;
+    text-align: center;
+}
+
+@media print {
+    .assign-one{
+        font-size: 40px;
+    }
+}
