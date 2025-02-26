@@ -1,58 +1,51 @@
 * {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    text-transform: capitalize;
+    margin: 0;
 }
 
-.parent {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+.arrow {
+    position: relative;
+    background-color: #dddddd;
+    padding: 20px;
+    margin: 50px auto;
+    width: 500px;
 }
 
-.parent div {
-    background-color: #eeeeee;
-    width: 100%;
-    padding: 10px 20px;
-    text-align: center;
-    border: 1px solid #e5e5e5;
-    margin-top: 5px;
+.top::after,
+.bottom::after,
+.left::after,
+.right::after {
+    content: "";
+    position: absolute;
+    border: 15px solid;
+    border-color: transparent;
 }
 
-.parent div p {
-    padding-top: 8px;
-    opacity: 0.8;
+.top::after {
+    border-bottom-color: #dddddd;
+    left: 50%;
+    top: -15px;
+    transform: translate(-50%, -50%);
 }
 
-.parent div h3 {
-    color: #009688;
+.bottom::after {
+    border-top-color: #dddddd;
+    left: 50%;
+    top: calc(100% + 15px);
+    transform: translate(-50%, -50%);
 }
 
-/* mobile devices */
-@media (max-width: 767px) {
-    .parent div {
-        margin: 5px;
-    }
-    .parent div h3 {
-        color: #000000;
-    }
+.left::after {
+    border-left-color: #dddddd;
+    left: calc(100% + 15px);
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 768px) and (max-width: 992px) {
-    .parent div {
-        width: calc(50% - 10px);
-    }
-    .parent div h3 {
-        color: #ff0000;
-    }
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 993px) {
-    .parent div {
-        width: calc(25% - 10px);
-    }
+.right::after {
+    border-right-color: #dddddd;
+    left: -15px;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }

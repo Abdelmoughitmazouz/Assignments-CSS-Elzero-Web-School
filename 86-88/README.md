@@ -1,38 +1,20 @@
-# Assignments (83 - 85) [Media Queries]
+# Assignments (86 - 88) [Global Values]
 
-Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-83-to-85/) :point_left:
+Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-86-to-88/) :point_left:
 
 ## Assignments 01
-- Adjust the font size to `40px` only in `Print` mode.
+
+- Create a `Framework` for yourself that contains the following capabilities:
+- First, a `Class` named `“center-flex”` when placed on an element, centers the elements inside it lengthwise and widthwise using `Flex`
+- Second, a `Class` named `“center-position”` when placed on an element, centers the element lengthwise and widthwise in the parent element
+- Third, a `Class` named `“circle-100”` when placed on an element, makes the width and length `100px`, then converts it to a circle
+- Fourth, a `Class` named `“circle-200”` when placed on an element, makes the width and length `200px`, then converts it to a circle
 
 ## Assignments 02
 
-- Make the same shape and same colors
-- Distribute the elements in the same number in each screen
-- Make sure that you show the colors in each screen as in the pictures
-- You must use only `Media Queries` and do not add any framework
+- Create a `class` called `arrow` and with it `Classes` for all directions `top`, `right`, `bottom`, `left`
+- Make sure that each `class` is for a specific direction and the arrow appears in the same direction
+- Make sure that the direction `class` only works in the presence of a `class` called `arrow`
+- Make sure that the arrow is always in the middle regardless of the length and width of the element
 
-### On the big screens
-![Assignments 02](/83-85/Image/css-assignments-lessons-83-85-2-1.png)
-
-### On medium screens
-![Assignments 02](/83-85/Image/css-assignments-lessons-83-85-2-2.png)
-
-### On small screens and mobile phones
-![Assignments 02](/83-85/Image/css-assignments-lessons-83-85-2-3.png)
-
-## Assignments 03
-
-- Make the same shape and same colors
-- Distribute the elements in the same number in each screen
-- Make sure that you show the colors in each screen as in the pictures
-- You must use only `Media Queries` and do not add any framework
-
-### On the big screens
-![Assignments 03](/83-85/Image/css-assignments-lessons-83-85-3-1.png)
-
-### On medium screens
-![Assignments 03](/83-85/Image/css-assignments-lessons-83-85-3-2.png)
-
-### On small screens and mobile phones
-![Assignments 03](/83-85/Image/css-assignments-lessons-83-85-3-3.png)
+![Assignments 02](/86-88/Image/css-assignments-lessons-86-88-1.png)
