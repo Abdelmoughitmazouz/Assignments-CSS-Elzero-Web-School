@@ -13,36 +13,28 @@ body {
     place-items: center;
 }
 
-
 div span{
+    display: block;
     width: 100px;
     height: 20px;
     margin-top: 10px;
     border-radius: 25px;
     background-color: black;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     transition:  0.3s ease;
-}
-/* div span:nth-child(1){
-    top: 60%;
-}
-div span:nth-child(3){
-    top: 55%;
-} */
-div span:hover:nth-child(2){
-    top: 50%;
-    background-color: rebeccapurple;
-    transform: translate(-50%,-50%) rotate(45deg);
-}
-div span:hover:nth-child(2){
-    top: 50%;
-    background-color: rebeccapurple;
-    transform: translate(-50%,-50%) rotate(-45deg);
-}
-div span:hover:nth-child(3){
-    opacity: 0;
+    position: relative;
 }
 
+div:hover span{
+    background-color: red;
+
+}
+div:hover span:nth-child(1){
+    transform: rotate(45deg);
+    position: absolute;
+}
+
+div:hover span:nth-child(3){
+    transform: rotate(-45deg);
+    position: absolute;
+    top:48%;
+}
