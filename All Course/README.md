@@ -39,3 +39,26 @@ Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-1-to-
 
 ![Assignments 05](/All%20Course/Image/css-assigns-all-course-5.gif)
 
+## Assignments 10
+
+- You have the following `HTML` structure which is not editable. 
+- Write the `CSS` code to make the shape as shown in the image below
+
+![Assignments 10](/All%20Course/Image/css-assigns-all-course-10.png)
+
+## Assignments 14
+
+- The shape is required as in the picture
+- The same `colors` must be used
+- The idea is taken from the `Codepen` website with some modifications
+- Draw the shape yourself and do not try to copy it until you learn
+
+![Assignments 14](/All%20Course/Image/css-assigns-all-course-14.png)
+
+## Assignments 15
+
+- You have the following HTML structure that is not editable.
+- Write the `CSS` code to make the shape as in the image below.
+
+![Assignments 15](/All%20Course/Image/css-assigns-all-course-15.png)
+
