@@ -20,7 +20,7 @@ div span{
     margin-top: 10px;
     border-radius: 25px;
     background-color: black;
-    transition:  0.3s ease;
+    transition:  0.1s ease;
     position: relative;
 }
 
@@ -37,4 +37,27 @@ div:hover span:nth-child(3){
     transform: rotate(-45deg);
     position: absolute;
     top:48%;
+}
+div:hover span:nth-child(2){
+    animation-name: hidde-span;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+    position: relative;
+    opacity: 0;
+}
+@keyframes hidde-span {
+    0%{
+        right: 50px;
+        opacity: 0.4;
+        
+    }
+    50%{
+        right: 80px;
+        opacity: 0.2;
+        
+    }
+    100%{ 
+        right: 90px;
+        opacity: 0;   
+   }
 }
