@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eeeeee;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+div{
+    --size-border: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #eeeeee;
+    position: relative;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 
+    0 0 0 calc(var(--size-border)) #cddc39,
+    0 0 0 calc(var(--size-border) + 10px) #e91e63,
+    0 0 0 calc(var(--size-border) + 20px) #9c27b0,
+    0 0 0 calc(var(--size-border) + 30px) #4caf50,
+    0 0 0 calc(var(--size-border) + 40px) #3f51b5,
+    0 0 0 calc(var(--size-border) + 50px) #795548,
+    0 0 0 calc(var(--size-border) + 60px) #ffc107,
+    0 0 0 calc(var(--size-border) + 70px) #009688;
+}

@@ -1,0 +1,23 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eeeeee;
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+ul{
+    background-color: #eeeeee;
+}
+
+ul li{
+    list-style-type: decimal;
+    background-color: #ffffff;
+}
