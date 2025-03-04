@@ -62,3 +62,13 @@ Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-1-to-
 
 ![Assignments 15](/All%20Course/Image/css-assigns-all-course-15.png)
 
+## Assignments 19
+
+- You have the following `HTML` structure which cannot be modified
+- Write the `CSS code` to create the shape as in the image below
+- `Pseudo Elements` are not allowed
+- `Gradients` are not allowed
+- The `Border` size must be changed from one place only, meaning it can be enlarged or reduced in one step
+
+![Assignments 19](/All%20Course/Image/css-assigns-all-course-19.png)
+
