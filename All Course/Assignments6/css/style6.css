@@ -9,15 +9,18 @@ body {
     background-color: #eeeeee;
     margin: 0;
     height: 100vh;
-    display: grid;
-    place-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 }
 
-a{
-    all:initial;
-    font-size: 26px; 
+a {
+    all: initial;
+    font-size: 36px;
 }
 
-a:host-context(elzero){
+a:not([class]) {
     color: #f44336;
+    font-weight: bold;
 }
