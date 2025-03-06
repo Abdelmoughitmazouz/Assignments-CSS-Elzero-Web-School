@@ -28,7 +28,7 @@ Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-1-to-
 ## Assignments 04
 
 - You have the following HTML structure which is not allowed to be modified. 
-- Write the CSS code to make the shape as shown in the image below.
+- Write the `CSS` code to make the shape as shown in the image below.
 
 ![Assignments 04](/All%20Course/Image/css-assigns-all-course-4.png)
 
@@ -38,6 +38,16 @@ Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-1-to-
 - Write the CSS code to make the shape as shown in the image below.
 
 ![Assignments 05](/All%20Course/Image/css-assigns-all-course-5.gif)
+
+## Assignments 06
+
+- We have a set of links as in the example
+- The required format is the last link that does not contain `Classes`
+- Knowing that the links can change their location, so do not rely on selecting the element by `Child`
+- It is forbidden to use the names of `Classes` in the solution at all
+- The required color is to color the last link in any color you like
+
+![Assignments 06](/All%20Course/Image/css-assigns-all-course-6.png)
 
 ## Assignments 10
 
