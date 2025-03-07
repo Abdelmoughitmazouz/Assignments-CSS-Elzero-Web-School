@@ -72,6 +72,16 @@ Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-1-to-
 
 ![Assignments 15](/All%20Course/Image/css-assigns-all-course-15.png)
 
+## Assignments 17
+
+
+![Assignments 17](/All%20Course/Image/css-assigns-all-course-17.png)
+
+## Assignments 18
+
+
+![Assignments 18](/All%20Course/Image/css-assigns-all-course-18.png)
+
 ## Assignments 19
 
 - You have the following `HTML` structure which cannot be modified
@@ -88,4 +98,29 @@ Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-1-to-
 - Write the `CSS` code to make the shape as shown in the image below.
 
 ![Assignments 20](/All%20Course/Image/css-assigns-all-course-20.png)
+
+## Assignments 21
+
+
+![Assignments 21]()
+
+## Assignments 22
+
+
+![Assignments 22](/All%20Course/Image/css-assigns-all-course-22.jpg)
+
+## Assignments 23
+
+
+![Assignments 23](/All%20Course/Image/css-assigns-all-course-23.jpg)
+
+## Assignments 24
+
+
+![Assignments 24](/All%20Course/Image/css-assigns-all-course-24.jpg)
+
+## Assignments 25
+
+
+![Assignments 25](/All%20Course/Image/css-assigns-all-course-25.jpg)
 
