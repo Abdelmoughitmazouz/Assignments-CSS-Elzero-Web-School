@@ -56,6 +56,12 @@ Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-1-to-
 
 ![Assignments 10](/All%20Course/Image/css-assigns-all-course-10.png)
 
+## Assignments 13
+
+- 
+
+![Assignments 13](/All%20Course/Image/css-assigns-all-course-13.png)
+
 ## Assignments 14
 
 - The shape is required as in the picture
