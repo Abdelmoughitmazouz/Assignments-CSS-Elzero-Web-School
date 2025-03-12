@@ -49,12 +49,21 @@ Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-1-to-
 
 ![Assignments 06](/All%20Course/Image/css-assigns-all-course-6.png)
 
+## Assignments 07
+
+![Assignments 07](/All%20Course/Image/css-assigns-all-course-7.png)
+
+## Assignments 08
+
+![Assignments 08](/All%20Course/Image/css-assigns-all-course-8.png)
+
 ## Assignments 10
 
 - You have the following `HTML` structure which is not editable. 
 - Write the `CSS` code to make the shape as shown in the image below
 
 ![Assignments 10](/All%20Course/Image/css-assigns-all-course-10.png)
+
 
 ## Assignments 11
 
