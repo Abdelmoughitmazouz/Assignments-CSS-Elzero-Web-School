@@ -57,6 +57,14 @@ Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-1-to-
 
 ![Assignments 08](/All%20Course/Image/css-assigns-all-course-8.png)
 
+## Assignments 09
+
+- You have the following `HTML` structure. Modification is prohibited.
+- Write the `CSS code` to create the shape as shown in the image below.
+- You can choose two different colors. No problem.
+
+![Assignments 09](/All%20Course/Image/css-assigns-all-course-9.png)
+
 ## Assignments 10
 
 - You have the following `HTML` structure which is not editable. 
