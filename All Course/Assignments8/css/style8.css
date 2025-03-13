@@ -9,15 +9,16 @@ body {
     background-color: #ffffff;
     margin: 0;
     height: 100vh;
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
     all: unset;
     width: 500px;
     height: 60px;
-   
 }
 
 a::after {
@@ -26,6 +27,5 @@ a::after {
     color: #ffffff;
     font-weight: bold;
     border-radius: 5px;
-    padding: 10px;
-    
+    padding: 10px; 
 }
