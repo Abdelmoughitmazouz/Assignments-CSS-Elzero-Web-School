@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eeeeee;
+    height: 100vh;
+    display: grid;
+    place-content: center;
+
+}
+
+ul {
+    counter-reset: item-counter 10;
+}
+
+ul li {
+    counter-increment: item-counter 3;
+    background-color: #ffffff;
+    padding: 30px;
+    width: 500px;
+    border-bottom: 1px solid rgba(0, 0, 0,0.3);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+ul li::before {
+    content: "(" counter(item-counter) ")";
+    position: absolute;
+    background-color: #9c27b0;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    left: calc(450px - 30px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+ul li:nth-child(even)::before {
+    background-color: #f44336;
+}

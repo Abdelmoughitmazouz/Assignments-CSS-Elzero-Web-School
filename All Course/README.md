@@ -114,11 +114,16 @@ Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-1-to-
 
 ## Assignments 17
 
+- You have the following `HTML` structure. It is prohibited to modify it.
+- Write the `SS code` to create the shape as shown in the image below.
 
 ![Assignments 17](/All%20Course/Image/css-assigns-all-course-17.png)
 
 ## Assignments 18
 
+- You have the following `HTML` structure. Modification is prohibited.
+- Write the `CSS` code to create the shape as shown in the image below.
+- Do not use the `::after pseudo element`.
 
 ![Assignments 18](/All%20Course/Image/css-assigns-all-course-18.png)
 
