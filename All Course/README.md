@@ -160,7 +160,9 @@ Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-1-to-
 ![Assignments 23](/All%20Course/Image/css-assigns-all-course-23.jpg)
 
 ## Assignments 24
-
+-
+-
+-
 
 ![Assignments 24](/All%20Course/Image/css-assigns-all-course-24.jpg)
 
