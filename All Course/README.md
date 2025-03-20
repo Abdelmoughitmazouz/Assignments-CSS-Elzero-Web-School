@@ -54,7 +54,9 @@ Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-1-to-
 ![Assignments 07](/All%20Course/Image/css-assigns-all-course-7.png)
 
 ## Assignments 08
-
+-
+-
+-
 ![Assignments 08](/All%20Course/Image/css-assigns-all-course-8.png)
 
 ## Assignments 09
@@ -108,7 +110,9 @@ Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-1-to-
 ![Assignments 15](/All%20Course/Image/css-assigns-all-course-15.png)
 
 ## Assignments 16
-
+-
+-
+-
 
 ![Assignments 16](/All%20Course/Image/css-assigns-all-course-17.png)
 
