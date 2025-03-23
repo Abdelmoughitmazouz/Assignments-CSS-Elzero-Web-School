@@ -10,24 +10,44 @@ body {
     height: 100vh;
     display: grid;
     place-content: center;
+
 }
 
 table {
-    width: 800px;
+    width: 1000px;
     text-align: center;
-
+    background-color: #ffffff;
+    border-collapse: collapse;
 }
 
-tr, td{
-    padding: 20px;
+th,
+tr,
+td {
+    padding: 15px 30px;
+    border: 2px solid #eeeeee;
 }
 
-thead tr {
+thead {
     background-color: #dddddd;
-    padding: 20px;
-
 }
 
-tbody tr td {
-    background-color: #eeeeee;
+/* Foot */
+
+tfoot td[colspan] {
+    background-color: #ffe400;
+    font-weight: bold;
+    color: black;
+}
+
+tfoot td {
+    background-color: #009aff;
+    color: white;
+    font-weight: bold;
+}
+
+caption {
+    background-color: #cccccc;
+    padding: 15px 30px;
+    font-weight: bold;
+    caption-side: bottom;
 }

@@ -50,6 +50,9 @@ Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-1-to-
 ![Assignments 06](/All%20Course/Image/css-assigns-all-course-6.png)
 
 ## Assignments 07
+-
+-
+-
 
 ![Assignments 07](/All%20Course/Image/css-assigns-all-course-7.png)
 
@@ -110,11 +113,10 @@ Source: [Elzero Web School](https://elzero.org/css-assignments-lesson-from-1-to-
 ![Assignments 15](/All%20Course/Image/css-assigns-all-course-15.png)
 
 ## Assignments 16
--
--
--
+- You have the following `HTML` structure. It is prohibited to modify it.
+- Write the `CSS` code to create the shape as shown in the image below.
 
-![Assignments 16](/All%20Course/Image/css-assigns-all-course-17.png)
+![Assignments 16](/All%20Course/Image/css-assigns-all-course-16.png)
 
 ## Assignments 17
 
